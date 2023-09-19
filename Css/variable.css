@@ -1,0 +1,17 @@
+:root {
+    /*color*/
+    --main-color: #FFD233;
+    --font-color: #000000;
+    --bg-color: #FFFFFF;
+    --arrow-color: #F79155;
+    --icon-color: #ffc802;
+    /*font*/
+    --title-font-family: 'Poppins';
+    --body-font-family: 'Nunito';
+    /*font size*/
+    --title-text: 3rem;
+    --body-text: 1.7rem;
+    --secondary-title-text: 2rem;
+    --third-title-text: 2.3rem;
+    --line-height: 2.6rem;
+}

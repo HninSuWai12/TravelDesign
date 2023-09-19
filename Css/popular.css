@@ -1,0 +1,47 @@
+.populars {
+    height: 70rem;
+}
+
+.popular-places {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-left: 6rem;
+}
+
+.banner-popular {
+    margin-top: 20rem;
+    font-size: 4rem;
+}
+
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.first-popular .image1 {
+    width: 57rem;
+    height: 48.9rem;
+}
+
+.second-popular .image1 {
+    width: 57rem;
+    height: 48.9rem;
+}
+
+.popular-icon {
+    margin-top: -40rem;
+    margin-left: 2rem;
+}
+
+.popular-btn {
+    background-color: #D9D9D9;
+    border: 2px solid #D9D9D9;
+    border-radius: 0;
+}
+
+.popular-icon .service-icon {
+    font-size: 25px;
+}

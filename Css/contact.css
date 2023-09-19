@@ -1,0 +1,88 @@
+                            .contact-us {
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: row;
+                                gap: 20rem;
+                                height: 30rem;
+                                background-color: #424242;
+                                width: 100%;
+                            }
+                            
+                            .follow {
+                                display: flex;
+                                flex-direction: column;
+                                margin-top: 3rem;
+                            }
+                            
+                            .connect {
+                                margin-bottom: 1rem;
+                                display: flex;
+                            }
+                            
+                            .connect .service-icon {
+                                font-size: 25px;
+                                cursor: pointer;
+                            }
+                            
+                            .connect p {
+                                color: var(--bg-color);
+                                margin-left: 1rem;
+                                font-size: 2rem;
+                                cursor: pointer;
+                            }
+                            /* footer*/
+                            
+                            footer {
+                                background-color: #424242;
+                                height: 10rem;
+                                margin-top: -6rem;
+                            }
+                            /*Media Query*/
+                            
+                            @media(max-width:1400px) {
+                                .contact-us {
+                                    width: 120%;
+                                }
+                                footer {
+                                    width: 120%;
+                                }
+                            }
+                            
+                            @media(max-width:992px) {
+                                .contact-us {
+                                    width: 140%;
+                                }
+                                footer {
+                                    width: 140%;
+                                }
+                            }
+                            
+                            @media(max-width:756px) {
+                                .contact-us {
+                                    width: 170%;
+                                }
+                                footer {
+                                    width: 170%;
+                                }
+                                .footer {
+                                    text-align: center;
+                                }
+                            }
+                            
+                            @media(max-width:565px) {
+                                .contact-us {
+                                    width: 220%;
+                                }
+                                footer {
+                                    width: 220%;
+                                }
+                            }
+                            
+                            @media(max-width:500px) {
+                                .contact-us {
+                                    width: 280%;
+                                }
+                                footer {
+                                    width: 280%;
+                                }
+                            }

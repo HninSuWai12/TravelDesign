@@ -1,0 +1,148 @@
+.ideas {
+    height: 115rem;
+    margin-right: 12rem;
+}
+
+.idea-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 5rem;
+}
+
+.idea-img {
+    width: 27rem;
+    height: 27.4rem;
+}
+
+.idea-text {
+    margin-top: 20px;
+    text-align: center;
+    width: 27rem;
+}
+
+.idea-text span {
+    color: unset;
+    cursor: pointer;
+}
+
+.idea-text .idea-icon {
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.idea-text span:hover .idea-icon {
+    color: var(--main-color);
+}
+
+
+/*Media Query*/
+
+@media(max-width:1289px) {
+    .idea-contact .idea {
+        width: 550px;
+        margin-left: 1rem;
+    }
+    .idea-imgs img {
+        width: 500px;
+    }
+    .idea-text {
+        width: 500px;
+    }
+}
+
+@media(max-width:1269px) {
+    .ideas {
+        margin-bottom: 90rem;
+    }
+    .idea-contact .idea {
+        width: 500px;
+        margin-left: 1rem;
+    }
+    .idea-imgs img {
+        margin-left: 10rem;
+    }
+    .idea-text {
+        margin-left: 20rem;
+    }
+}
+
+@media(max-width:1169px) {
+    .ideas {
+        margin-bottom: 109rem;
+    }
+    .idea-contact .idea {
+        width: 400px;
+        margin-left: 1rem;
+    }
+    .idea-imgs img {
+        width: 400px;
+    }
+    .idea-text {
+        width: 400px;
+    }
+}
+
+@media(max-width:969px) {
+    .idea-contact .idea {
+        width: 350px;
+        margin-left: 1rem;
+    }
+    .idea-imgs img {
+        width: 350px;
+    }
+    .idea-text {
+        width: 350px;
+    }
+}
+
+@media(max-width:869px) {
+    .idea-contact .idea {
+        width: 300px;
+        margin-left: 1rem;
+    }
+    .idea-imgs img {
+        width: 300px;
+    }
+    .idea-text {
+        width: 300px;
+    }
+}
+
+@media(max-width:780px) {
+    .ideas {
+        margin-bottom: 270rem;
+    }
+    .idea-contact .idea {
+        width: 800px;
+        margin-left: rem;
+    }
+    .idea-imgs img {
+        width: 800px;
+        margin-left: 15rem;
+    }
+    .idea-text {
+        width: 800px;
+        margin-left: 15rem;
+    }
+}
+
+@media(max-width:715px) {
+    .idea-h1 {
+        width: 40rem;
+    }
+}
+
+@media(max-width:576px) {
+    .idea-h2 {
+        margin-left: 10rem;
+    }
+    .idea-imgs img {
+        margin-left: 25rem;
+    }
+    .idea-text {
+        margin-left: 25rem;
+    }
+}

@@ -1,0 +1,21 @@
+.our-service {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.our-service>* {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1.4rem;
+    transition: .3s;
+    flex-grow: 1;
+    /* get from whitespace */
+    flex-basis: 30rem;
+}
+
+.our-service>*:hover {
+    background-color: #000;
+    color: #fff;
+}
